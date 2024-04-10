@@ -1,0 +1,151 @@
+/*=================Tags=================*/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    background-color: #DCF2F1 ;
+}
+
+h1{
+    font-family: "Pixelify Sans",serif;
+    font-size: 400%;
+    margin: 0 auto 0 auto;
+    font-weight: normal;
+}
+h2,h3,h4{
+    color: #11999E;
+    font-family: "Montserrat", serif;
+    font-size: 1.5rem;
+}
+
+hr{
+    margin: 100px auto;
+    border-style:none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 10px;
+    border-color: #11999E;
+}
+a{
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #11999E ;
+}
+
+/*=================Class=================*/
+.top-container{
+    background-color: #0F1035 ;
+    position: relative;
+    padding-top: 100px;
+    color:#DCF2F1 ;
+    margin: 0;
+}
+.mid-container{ 
+    position: relative;
+    padding-top: 100px;
+    margin: 0 0 100px 0;
+}
+
+.bottom-container{
+    position: relative;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+.Chave{
+    position: absolute;
+    width: 9%;
+    height: 10%;
+    
+}
+.projetos{
+    margin-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+}
+.huff{
+    height: 250px;
+    width: 250px;
+}
+.projeto-1{
+    height: 250px;
+    width: 250px;
+}
+.projeto-2{
+    height: 250px;
+    width: 250px;
+}
+
+.contact-me{
+    position: absolute;
+    display: inline-block;
+    right: 10%;
+    top: 80%;
+}
+.huff-img{
+    width : 154px;
+    height : 154px;
+}
+.img-proj{
+    width: 90%;
+    height: 90%;
+}
+.skills{
+    margin-top: 50px;
+}
+.btn {
+    background: #f008e1;
+    background-image: -webkit-linear-gradient(top, #f008e1, #009dff);
+    background-image: -moz-linear-gradient(top, #f008e1, #009dff);
+    background-image: -ms-linear-gradient(top, #f008e1, #009dff);
+    background-image: -o-linear-gradient(top, #f008e1, #009dff);
+    background-image: linear-gradient(to bottom, #f008e1, #009dff);
+    -webkit-border-radius: 35;
+    -moz-border-radius: 35;
+    border-radius: 35px;
+    text-shadow: 0px 0px 0px #666666;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 6px 20px 6px 20px;
+    border: dotted #080808 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+/*=================ID`s=================*/
+#titleMyName{
+    color: #DCF2F1;
+}
+
+#chave1{
+    display: inline-block;
+    left: 90%;
+    top: 3%;
+}
+
+#chave2{
+    display: inline;
+    left: 3%;
+    bottom: 3%;
+    
+   
+}
